@@ -11,9 +11,6 @@ Search is OK, but not hard to see patterns and relationships
 * County, Year, Crime Code
 
 
-
-
-
 ### Can we infer the graph?
 
 # Hierarchy
@@ -26,8 +23,10 @@ Copied fields are collections, like "State" has hundreds of "SC" values.
 
 ### Create a new UX
 
-
-
 ### Generate a strucutre from CSV
+
+To use the csv distinct counter tool, one needs to install [Leiningen](https://leiningen.org), a Clojure CLI tool.
+Once Leiningen is installed, exec the tool with this command:
+`lein run path/to/csv-file.csv`
 
 ### Generate an API from the CSV
